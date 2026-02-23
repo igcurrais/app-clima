@@ -1,3 +1,4 @@
+
 //const geoURL = "https://geocoding-api.open-meteo.com/v1/search?name=Buenos Aires&count=1"
 const boton = document.getElementById("boton");
 const resultado = document.getElementById("resultado");
@@ -72,3 +73,4 @@ boton.addEventListener("click", ()=>{
     let lugarselect = ciudad.value;
     obtenerClima(lugarselect);
 });
+
