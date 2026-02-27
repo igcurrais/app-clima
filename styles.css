@@ -1,5 +1,9 @@
-
-
+h1{
+    text-align: center;
+}
+#resultado{
+    text-align: center;
+}
 #cards{
     box-sizing: border-box;
     width: 100%;
@@ -25,8 +29,9 @@
 @media (max-width: 600px){
 
     #cards{
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr; /* solo 1 columna en celular */
+        gap: 15px;
     }
     .contenedor{
         width: 90%;
