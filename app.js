@@ -78,6 +78,7 @@ async function obtenerClima(lugarselect) {
             let nombreDia = formateador.format(fecha);
 
             const contenedor = document.createElement("div");
+            contenedor.classList.add("contenedor");
             const dia = document.createElement("h4");
             dia.textContent = nombreDia;
             const sky = document.createElement("p");
